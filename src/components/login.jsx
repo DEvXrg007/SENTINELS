@@ -16,7 +16,7 @@ export default function Login() {
           <div class="w-full lg:w-1/2 py-16 px-12">
             <h2  class="text-3xl mb-4">Register</h2>
             <p class="mb-4">
-              Create your account. It’s free and only take a minute
+              Create your account. Its free and only take a minute
             </p>
             <form action="#">
               <div class="grid grid-cols-2 gap-5">
@@ -49,4 +49,3 @@ export default function Login() {
         </div>
     )
 }
-ṭ
