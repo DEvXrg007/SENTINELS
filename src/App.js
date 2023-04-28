@@ -3,10 +3,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import DisplayResult from './components/DisplayResult';
 import Login from './components/login';
+import Ipdata from './components/Ipdata';
 
 function App() {
   return (
-    <Login/>
+    <Ipdata/>
     // <BrowserRouter>
     //   <Routes>
     //     <Route
