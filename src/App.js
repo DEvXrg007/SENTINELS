@@ -7,6 +7,7 @@ import Prediction from './components/Prediction';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from './components/About';
+import Ipdata from './components/Ipdata';
 
 function App() {
   return (
@@ -33,6 +34,17 @@ function App() {
               <Navbar />
               <div className="flex items-center justify-center">
                 <About />
+              </div>
+            </div>
+          }
+        />
+        <Route
+          path="/inputdata"
+          element={
+            <div className="h-screen flex flex-col   px-20 overflow-y-auto pb-12 radial sm:px-0 sm:pb-5">
+              <Navbar />
+              <div className="flex items-center justify-center">
+                <Ipdata />
               </div>
             </div>
           }
