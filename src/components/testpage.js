@@ -115,11 +115,5 @@ const testpage = () => {
   )
 }
 
-export default Outpage
-</div>
-    </div>
-    
-  )
-}
 
 export default testpage
